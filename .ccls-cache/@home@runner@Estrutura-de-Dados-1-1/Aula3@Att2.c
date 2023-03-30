@@ -15,7 +15,7 @@ float media(float *n){
 int main(void) {
   float v[MAX];
   for(int i=0;i<MAX;i++){
-    printf("Digite o valor do indice:");
+    printf("Digite o valor do indice %d: ",i+1);
     scanf("%f",&v[i]);
   }
   float res = media(v);
