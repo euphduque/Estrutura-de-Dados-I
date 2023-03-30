@@ -21,5 +21,6 @@ int main(void) {
   }
   float res = media(v);
   printf("%0.2f\n", res);
+  free(v);
   return 0;
 }
