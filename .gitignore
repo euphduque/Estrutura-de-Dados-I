@@ -1,1 +1,6 @@
 .ccls-cache
+.breakpoints
+.replit
+.vscode
+Makefile
+replit.nix
