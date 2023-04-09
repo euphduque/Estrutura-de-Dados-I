@@ -41,8 +41,8 @@ void leAluno(int n, Aluno** tab, int i){
     tab[i]= (Aluno*) malloc(sizeof(Aluno));
     printf("Digite o nome do aluno: ");
     scanf("%s",tab[i]->nome);
-    printf("Digite a Matricula do aluno: ");
-    scanf("%d",&tab[i]->matricula);
+    tab[i]->matricula=i+1;
+    printf("Matricula do aluno é: %d\n",tab[i]->matricula);
   }else{
     printf("Todas as Vagas já foram preenchidas.\n");
   }
